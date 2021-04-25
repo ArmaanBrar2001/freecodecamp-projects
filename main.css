@@ -38,11 +38,6 @@ body{
 #image{
 	border: 2px solid #d9dec7;
 	border-radius: 15px;
-	background-color: #000;
-}
-
-#image:hover{
-	opacity: 0.6;
 }
 
 #img-caption{
