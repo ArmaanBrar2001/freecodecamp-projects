@@ -38,6 +38,8 @@ body{
 #image{
 	border: 2px solid #d9dec7;
 	border-radius: 15px;
+	max-width: 100%;
+  	height: auto;
 }
 
 #img-caption{
