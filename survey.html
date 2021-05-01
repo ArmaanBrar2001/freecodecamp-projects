@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey Form</title>
+		<link rel="stylesheet" type="text/css" href="survey.css">
+	</head>
+
+	<body>
+		<section class="survey">
+			<h1 id="title">Survey Form</h1>
+			<p id="description">Please fill this survey form to tell us about how you feel about our products</p>
+			<div class="container">
+				<p><em>Fields marked with</em>&nbsp;&nbsp;<strong>*</strong>&nbsp;&nbsp; <em>are necessary</em></p>
+				<form id="survey-form" action="" method="POST">
+					<div class="field">
+						<label id="name-label" for="name">Name*:</label>
+						<br>
+						<input type="text" id="name" name="name" placeholder="Test Name" required autofocus>
+					</div>
+
+					<div class="field">
+						<label id="email-label" for="email">Email*:</label>
+						<br>
+						<input type="email" id="email" name="email" placeholder="eg: test@site.com" pattern="[A-Za-z0-9]{2,}@[A-Za-z]{2,}.[A-Za-z]{2,}" required autofocus>
+					</div>
+
+					<div class="field">
+						<label id="number-label" for="number">Age*:</label>
+						<br>
+						<input type="number" id="number" name="age" placeholder="eg: 12" required min="12" max="99" autofocus>
+					</div>
+
+					<div class="field">
+						<label id="drop-label" for="dropdown">Select the product*:</label>
+						<br>
+						<select id="dropdown" name="product-selection" required autofocus>
+							<option value="Select Product">Select Product</option>
+							<option value="Shirt">Shirt</option>
+							<option value="T-Shirt">T-Shirt</option>
+							<option value="Trouser">Trouser</option>
+							<option value="Track Pant">Track Pant</option>
+						</select>
+					</div>
+
+					<div class="field">
+						<div class="rd-cb">
+							<label id="radio-label" for="radio">Is this your first time using our products?</label>
+							<br>
+							<input type="radio" id="radio" name="yes-no">Yes
+							<input type="radio" id="radio" name="yes-no">No
+						</div>
+					</div>
+
+					<div class="field">
+						<div class="rd-cb">
+							<label id="check-label" for="check">Where did you get information about us?</label>
+							<br>
+							<input type="checkbox" id="check" name="info" value="yes">Google Ads
+							<br>
+							<input type="checkbox" id="check" name="info" value="yes">Facebook
+							<br>
+							<input type="checkbox" id="check" name="info" value="yes">Twitter
+							<br>
+							<input type="checkbox" id="check" name="info" value="yes">Instagram
+							<br>
+							<input type="checkbox" id="check" name="info" value="yes">Friends
+						</div>
+					</div>
+
+					<div class="field">
+						<label id="comment-label" for="comment">Comments:</label>
+						<br>
+						<textarea id="comment" name="comment" placeholder="Tell us more about our products" autofocus></textarea>
+					</div>
+
+					<div class="field">
+						<button type="submit" id="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
