@@ -1,0 +1,376 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	font-family: lato;
+	margin: 0;
+	padding: 0;
+}
+
+
+@media screen and (min-width: 300px){
+/*LOGO SECTION*/
+	.logo-img{
+		padding: 60px 0 30px;
+	}
+
+	.logo-img img{
+		width: 100px;
+	}
+
+	/*MAIN MENU*/
+	.navigation{
+		z-index: 1;
+		background-color: #fff;
+		position: fixed;
+	}
+
+	.navbar{
+		margin: 0;
+		margin-left: 500px;
+	}
+
+	.hover-drop:hover .drop-menu{
+		display: block;
+	}
+
+	.hover-drop li:hover{
+		transition: 0.4s;
+	}
+
+	.drop-submenu{
+		display: none;
+		background-color: #fff;
+	}
+
+	.dropdown-submenu{
+		position: relative;
+	}
+
+	.menu-active{
+		background-color: #D14C12;
+	}
+
+	.navi li a{
+		color: #333;
+	}
+
+	.navi .menu-active a{
+		color: #fff;
+	}
+
+	.menu-active:hover a{
+		color: #333;
+	}
+
+	.dropdown-submenu:hover .drop-submenu {
+	    display: block;
+	    top: 0px;
+	    left: 190px;
+	    position: absolute;
+	    width: 210px;
+	    border: 1px solid rgba(0,0,0,.15);
+	    border: 1px solid rgba(0,0,0,.15);
+	    border-radius: 4px;
+	    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	    padding: 5px 0;
+	    text-align: left;
+	}
+
+	.dropdown-submenu li{
+		padding: 8px 17px;
+	}
+
+	.dropdown-submenu li:hover{
+		background-color: #F5F5F5;
+		transition: 0.4s;
+	}
+
+	.drop-submenu li a{
+		color: #333333;
+		text-decoration: none;
+		padding: 8px 0;
+	}
+
+	/*BANNER SECTION*/
+	.banner-sec{
+		background-image: url('https://user-images.githubusercontent.com/82953012/117348408-ca424e00-aec7-11eb-8cbe-d0bc6a60c654.jpg');
+		transform: scaleX(-1);
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 80px 0;
+	}
+
+	.empower{
+		font-size: 56px;
+		transform: scaleX(-1);
+	}
+
+	.value{
+		transform: scaleX(-1);
+		width: 320px;
+		float: right;
+		text-align: center;
+	}
+
+	.orange-txt{
+		color: #D14C12;
+	}
+
+	.value .orange-txt{
+		font-size: 27px;
+	}
+
+	.lm-btn{
+		transform: scaleX(-1);
+		float: right;
+		margin: 20px 0 0;
+	}
+
+	.learn-more{
+		background-color: #D14C12;
+		color: #fff;
+		font-size: 20px;
+		padding: 8px 15px;
+	}
+
+	.learn-more:hover{
+		background-color: #a43b0e;
+		color: #d1d1d1;
+		transition: 0.3s;
+	}
+
+	/*ABOUT SECTION*/
+	.about{
+		background-color: #e8eff4;
+		padding: 50px 0;
+	}
+
+	.abt-heading h2{
+		color: #d14c12;
+		font-size: 36px;
+	}
+
+	.abt-img{
+		margin: 40px;
+	}
+
+	.abt-img img{
+		width: 530px;
+		height: 430px;
+		object-fit: cover;
+		box-shadow: -7px 7px 30px rgb(0 0 0);
+	}
+
+	.abt-para{
+		margin: 60px 40px;
+		color: #134374;
+	}
+
+	.abt-para h3{
+		font-size: 28px;
+		margin-bottom: 50px;
+	}
+
+	.abt-para p{
+		font-size: 18px;
+		line-height: 30px;
+		color: #333;
+	}
+
+	.read-more{
+		background-color: #D14C12;
+		color: #fff;
+		font-size: 18px;
+		padding: 8px 15px;
+		margin-left: 40px;
+	}
+
+	.read-more:hover{
+		background-color: #a43b0e;
+		color: #d1d1d1;
+		transition: 0.3s;
+		font-size: 18px;
+	}
+
+	/*SERVICES*/
+	.services{
+		background-color: #28485c;
+		padding: 50px 0;
+	}
+
+	.serv-head h2{
+		font-size: 36px;
+		color: #d14c12;
+	}
+
+	/*CAROUSEL*/
+	.carousel-head{
+		font-size: 30px;
+		color: #f1f1f1;
+	}
+
+	.carousel-list-div-1{
+		margin: 80px 0 0 110px;
+	}
+
+	.list-item{
+		color: #fff;
+		font-size: 20px;
+	}
+
+	.grains-img-1 img{
+		width: 350px;
+		height: 400px;
+		margin: 40px 0 80px;
+		object-fit: cover;
+	}
+
+	.grains-img img{
+		width: 350px;
+		height: 400px;
+		margin: 40px 0 80px 100px;
+		object-fit: cover;
+	}
+
+	.carousel-list-div{
+		margin: 80px 0 0 250px;
+	}
+
+	.carousel-list{
+		width: 200px;
+	}
+
+	.carousel-list-div-2{
+		margin: 150px 0 0 110px;
+	}
+
+	.carousel-control {
+	    width: 0%;
+	}
+
+	/*QUOTES AND CHARTS*/
+	.q-and-c{
+		background-image: url('https://user-images.githubusercontent.com/82953012/117347928-412b1700-aec7-11eb-812c-ca6de21745f2.jpg');
+		padding: 60px 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.qc-head h2{
+		font-size: 36px;
+		color: #d14c12;
+	}
+
+	.chart{
+		color: #28485C;
+	}
+
+	.qc-para{
+		padding: 30px 0;
+		font-size: 18px;
+	}
+
+	/*cards*/
+	.historical-card{
+		border: 3px solid #d14c12;
+		padding: 10px 10px 71px;
+		border-radius: 4px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.seasonal-card{
+		border: 3px solid #d14c12;
+		padding: 10px 10px 52px;
+		border-radius: 4px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.spread-card{
+		border: 3px solid #d14c12;
+		padding: 10px 10px 51px;
+		border-radius: 4px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cot-card{
+		border: 3px solid #d14c12;
+		padding: 10px 10px 71px;
+		border-radius: 4px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.live-card{
+		border: 3px solid #d14c12;
+		padding: 10px;
+		border-radius: 4px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cot-card-para{
+		margin-top: 6px;
+	}
+
+	.video{
+		padding: 80px 0 50px;
+	}
+
+	.contact-us{
+		background-image: url("https://user-images.githubusercontent.com/82953012/117347929-425c4400-aec7-11eb-8b02-c58eee800989.png");
+		padding: 60px 0;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.contact-head{
+		font-size: 36px;
+	    color: #d14c12;
+	}
+
+	.know-help h5{
+		font-size: 20px;
+		color: #777777;
+	}
+
+	.form{
+		float: right;
+		padding: 40px;
+	}
+
+	.form input{
+		width: 400px;
+		height: 50px;
+		margin: 20px 0;
+		background-color: transparent;
+		color: #777777;
+		font-size: 20px;
+		padding: 0 15px;
+		border-top-width: 3px;
+		border-color: #fff;
+		border-bottom-width: 6px;
+		border-right-width: 4px;
+		border-left-width: 2px;
+		border-left-color: #fff;
+	}
+
+	#submit {
+	    background-color: #D14C12;
+	    color: #fff;
+	    font-size: 20px;
+	    padding: 8px 15px;
+	    border: 2px solid #d14c12;
+	    border-radius: 7px;
+	    width: 150px;
+	    float: right;
+	}
+
+	#submit:hover{
+		background-color: #a43b0e;
+		color: #d1d1d1;
+		transition: 0.3s;
+	}
+}
