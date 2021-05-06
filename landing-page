@@ -1,0 +1,654 @@
+<DOCTYPE! html>
+<html lang = "en">	
+	<head>
+		<meta charset = "UTF-8">
+		<title>Landing Page</title>
+		<link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src =" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<link rel = "stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+		<link rel = "stylesheet" href = "Land-pg.css">
+	</head>
+
+	<body>
+
+		<header id="header"><!--logo Header-->
+			<div class="navigation">
+				<nav class="navbar" id = "nav-bar">
+				  	<div class="container">
+				    	<div class="navbar-header">
+				      		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        		<span class="icon-bar"></span>
+				       		 	<span class="icon-bar"></span>
+				        		<span class="icon-bar"></span>
+				      		</button>
+				    	</div>
+				    	<div class="collapse navbar-collapse" id="myNavbar">
+					      	<div class = "navi">
+					      		<ul class="nav navbar-nav navi">
+					        		<li class="menu-active nav-link"><a href="#banner">Home</a></li>
+					        		<li class = "nav-link"><a href="#aboutus">About Us</a></li>
+					        		<li class = "nav-link"><a href="#services">Services</a></li>
+					        		<li class="nav-link"><a href="#qandc">Quotes & Charts</a></li>
+					        		<li class="nav-link"><a href="#contact">Contact Us</a></li>
+					      		</ul>
+					      	</div>
+					    </div>
+				  	</div>
+				</nav>
+			</div>
+
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-sm-12">
+						<div class = "text-center">
+							<div class = "logo-img">
+								<a href = "#"><img class = "img-circle" src = "https://user-images.githubusercontent.com/82953012/117347908-3d979000-aec7-11eb-8a90-73e70543747e.png" id = "header-img"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</header>
+
+		<section id="banner"> <!--Banner-->
+			<div class = "banner-sec">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-xs-12">
+							<h1 class = "empower"><strong><span class = "orange-txt">Empowering</span></strong> You!!</h1>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-xs-12">
+							<h3 class = "value">Our willingness to share over <span class = "orange-txt"><strong><i>35 plus</i></strong></span> years of our experience is the foundation of our business.</h3>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "lm-btn">
+								<button class = "btn learn-more">Learn More</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="aboutus"> <!--About-->
+			<div class = "about">	
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "text-center">
+								<div class = "abt-heading">
+									<h2><strong>ABOUT</strong></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-md-6 col-sm-12">
+							<div class = "abt-img">
+								<img src = "https://user-images.githubusercontent.com/82953012/117347938-44260780-aec7-11eb-8b33-9be9293fd638.jpg">
+							</div>
+						</div>
+
+						<div class = "col-md-6 col-sm-12">
+							<div class = "abt-para">
+								<h3>Vestibulum malesuada est turpis	</h3>
+								<p>Nullam odio velit, sagittis sit amet elit non, suscipit vulputate dolor. Vestibulum ut consequat est, eget feugiat purus. Nunc ullamcorper magna sit amet iaculis elementum. Pellentesque tempor magna ut justo elementum, sit amet condimentum felis tempor. Duis lacinia, lorem dictum convallis dictum, urna erat euismod sem, ac porttitor eros tortor in massa.</p>
+							</div>
+							<button class = "btn read-more">Read More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="services"><!--Services-->
+			<div class = "services">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "text-center">
+								<div class = "serv-head">
+									<h2><strong>SERVICES</strong></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    						<!-- Indicators -->
+							    <ol class="carousel-indicators">
+							      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+							      	<li data-target="#myCarousel" data-slide-to="1"></li>
+							      	<li data-target="#myCarousel" data-slide-to="2"></li>
+							      	<li data-target="#myCarousel" data-slide-to="3"></li>
+							      	<li data-target="#myCarousel" data-slide-to="4"></li>
+							    </ol>
+
+							    <!-- Wrapper for slides -->
+							    <div class="carousel-inner">
+							      	<div class="item active"><!--grains-->
+							      		<div class = "row">
+							      			<div class = "col-xs-12">
+							      				<div class = "text-center">
+							      					<h3 class = "carousel-head">Grains</h3>
+							      				</div>
+							      			</div>
+							      		</div>
+
+							      		<div class = "row">
+							      			<div class = "col-xs-6">
+							      				
+							      				<div class = "carousel-list-div-1">
+								      				<div class = "row">
+								      					<div class = "col-xs-6">
+										      				<ol class = "carousel-list">
+										      					<li class = "list-item">Corn hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Soybean hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Soybean meal hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Soybean oil hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Corn hedge strategies</li>
+										      					<br>
+										      				</ol>
+										      			</div>
+
+										      			<div class = "col-xs-6">
+										      				<ol class = "carousel-list-1">
+										      					<li class = "list-item">Chicago Wheat hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Minneapolis Wheat hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Kansas City Wheat hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Cotton hedge strategies</li>
+										      					<br>
+										      				</ol>
+										      			</div>
+										      		</div>
+										      	</div>
+							      			</div>
+
+							      			<div class = "col-xs-6">
+							      				<div class = "grains-img-1">
+							      					<div class = "text-center">
+							      						<img src="https://user-images.githubusercontent.com/82953012/117347936-438d7100-aec7-11eb-81a6-2784f551c335.jpg" alt="grains">
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+							      	</div>
+
+							      	<div class="item"><!--energies-->
+							        	<div class = "row">
+							      			<div class = "col-xs-12">
+							      				<div class = "text-center">
+							      					<h3 class = "carousel-head">Energies</h3>
+							      				</div>
+							      			</div>
+							      		</div>
+
+							      		<div class = "row">
+							      			<div class = "col-xs-6">
+							      				
+							      				<div class = "carousel-list-div">
+								      				<div class = "row">
+								      					<div class = "col-xs-6">
+								      						<div class = "text-center">
+											      				<ol class = "carousel-list">
+											      					<li class = "list-item">Crude Oil hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Heating Oil hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">RBOB Gasoline hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Natural Gas hedge strategies</li>
+											      					<br>
+											      				</ol>
+											      			</div>
+										      			</div>
+										      		</div>
+										      	</div>
+							      			</div>
+
+							      			<div class = "col-xs-6">
+							      				<div class = "grains-img">
+							      					<div class = "text-	center">
+							      						<img src="https://user-images.githubusercontent.com/82953012/117347934-42f4da80-aec7-11eb-8263-7c878e4d6485.jpg" alt="grains">
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+							      	</div>
+							    
+							      	<div class="item"><!--metals-->
+							        	<div class = "row">
+							      			<div class = "col-xs-12">
+							      				<div class = "text-center">
+							      					<h3 class = "carousel-head">Metals</h3>
+							      				</div>
+							      			</div>
+							      		</div>
+
+							      		<div class = "row">
+							      			<div class = "col-xs-6">
+							      				
+							      				<div class = "carousel-list-div">
+								      				<div class = "row">
+								      					<div class = "col-xs-6">
+								      						<div class = "text-center">
+											      				<ol class = "carousel-list">
+											      					<li class = "list-item">Copper hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Gold hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Silver hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Platinum hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Palladium hedge strategies</li>
+											      					<br>
+											      				</ol>
+											      			</div>
+										      			</div>
+										      		</div>
+										      	</div>
+							      			</div>
+
+							      			<div class = "col-xs-6">
+							      				<div class = "grains-img">
+							      					<div class = "text=center">
+							      						<img src="https://user-images.githubusercontent.com/82953012/117347942-44be9e00-aec7-11eb-83e2-041dbb5699ab.jpg" alt="grains">
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+							      	</div>
+
+							      	<div class="item"><!--livestock-->
+							        	<div class = "row">
+							      			<div class = "col-xs-12">
+							      				<div class = "text-center">
+							      					<h3 class = "carousel-head">Livestock</h3>
+							      				</div>
+							      			</div>
+							      		</div>
+
+							      		<div class = "row">
+							      			<div class = "col-xs-6">
+							      				
+							      				<div class = "carousel-list-div">
+								      				<div class = "row">
+								      					<div class = "col-xs-6">
+								      						<div class = "text-center">
+											      				<ol class = "carousel-list">
+											      					<li class = "list-item">Lean Hogs hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Live Cattle hedge strategies</li>
+											      					<br>
+											      					<li class = "list-item">Feeder Cattle hedge strategies</li>
+											      					<br>
+											      				</ol>
+											      			</div>
+										      			</div>
+										      		</div>
+										      	</div>
+							      			</div>
+
+							      			<div class = "col-xs-6">
+							      				<div class = "grains-img">
+							      					<div class = "text=center">
+							      						<img src="https://user-images.githubusercontent.com/82953012/117347941-44be9e00-aec7-11eb-922a-ff003f201b04.jpg" alt="grains">
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+							      	</div>
+
+							      	<div class="item"><!--soft-->
+							        	<div class = "row">
+							      			<div class = "col-xs-12">
+							      				<div class = "text-center">
+							      					<h3 class = "carousel-head">Softs</h3>
+							      				</div>
+							      			</div>
+							      		</div>
+
+							      		<div class = "row">
+							      			<div class = "col-xs-6">
+							      				
+							      				<div class = "carousel-list-div-2">
+								      				<div class = "row">
+								      					<div class = "col-xs-6">
+										      				<ol class = "carousel-list">
+										      					<li class = "list-item">Sugar hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Cocoa hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Orange Juice hedge strategies</li>
+										      					<br>
+										      				</ol>
+										      			</div>
+
+										      			<div class = "col-xs-6">
+										      				<ol class = "carousel-list-1">
+										      					<li class = "list-item">Coffee hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Cotton hedge strategies</li>
+										      					<br>
+										      					<li class = "list-item">Lumber hedge strategies</li>
+										      					<br>
+										      				</ol>
+										      			</div>
+										      		</div>
+										      	</div>
+							      			</div>
+
+							      			<div class = "col-xs-6">
+							      				<div class = "grains-img">
+							      					<div class = "text-center">
+							      						<img src="https://user-images.githubusercontent.com/82953012/117347920-3f615380-aec7-11eb-80be-f2411492be88.jpg" alt="grains">
+							      					</div>
+							      				</div>
+							      			</div>
+							      		</div>
+							      	</div>
+							    </div>
+
+							    <!-- Left and right controls -->
+							    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+							      	<span class="glyphicon glyphicon-chevron-left"></span>
+							      	<span class="sr-only">Previous</span>
+							    </a>
+							    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+							      	<span class="glyphicon glyphicon-chevron-right"></span>
+							      	<span class="sr-only">Next</span>
+							    </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="qandc"><!--Quotes and Charts-->
+			<div class = "q-and-c">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "text-center">
+								<div class = "qc-head">
+									<h2><strong>QUOTES AND <span class = "chart">CHARTS</span></strong></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-xs-12">
+							<p class = "qc-para">Praesent rhoncus leo eu leo luctus bibendum. Nulla vel ornare nisi. In sit amet dolor tincidunt, blandit mi eget, fringilla nisi. In velit mauris, posuere eget cursus non, molestie eget tortor. Pellentesque tempor lectus et enim auctor, vel dapibus sapien tristique. Quisque euismod mattis mi vel maximus. Vivamus vitae ex volutpat, ultrices neque ut, aliquam risus. Duis tempus dapibus massa ac sodales. Duis molestie nulla nunc, id aliquet ante ultricies id. Donec vel diam odio. Curabitur erat ipsum, scelerisque a nunc sed, rhoncus consectetur dui.</p>
+						</div>
+					</div>
+
+					<div class = "row">
+						
+						<div class="col-md-1">
+						</div>
+
+						<div class = "col-md-2 col-sm-3 col-xs-6"><!--Historical Charts card-->
+							<div class = "historical-card">
+								
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-icon">
+											<div class = "text-center">
+												<h3><i class="fa fa-clock-o" aria-hidden="true"></i></h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-head">
+											<div class = "text-center">
+												<h3>Historical Charts</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-para">
+											<div class = "text-center">
+												<p>Find all historical charts for different terms and exchange.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class = "col-md-2 col-sm-3 col-xs-6"><!--Seasonal Charts card-->
+							<div class = "seasonal-card">
+								
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-icon">
+											<div class = "text-center">
+												<h3><i class="fa fa-calendar-o" aria-hidden="true"></i></h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-head">
+											<div class = "text-center">
+												<h3>Seasonal Charts</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-para">
+											<div class = "text-center">
+												<p>All seasonal charts with 5-30 years of comparison is available.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class = "col-md-2 col-sm-3 col-xs-6"><!--Spread Charts card-->
+							<div class = "spread-card">
+								
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-icon">
+											<div class = "text-center">
+												<h3><i class="fa fa-bar-chart" aria-hidden="true"></i></h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-head">
+											<div class = "text-center">
+												<h3>Spread Charts</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-para">
+											<div class = "text-center">
+												<p>Spread charts with comparison to other terms and technical indicators.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class = "col-md-2 col-sm-3 col-xs-6"><!--COT Charts card-->
+							<div class = "cot-card">
+								
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-icon">
+											<div class = "text-center">
+												<h3><i class="fa fa-line-chart" aria-hidden="true"></i></h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-head">
+											<div class = "text-center">
+												<h3>COT Charts</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "cot-card-para">
+											<div class = "text-center">
+												<br>
+												<p>All COT charts are available on your hand with search facility.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class = "col-md-2 col-sm-3 col-xs-6"><!--Live Streaming card-->
+							<div class = "live-card">
+								
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-icon">
+											<div class = "text-center">
+												<h3><i class="fa fa-play-circle" aria-hidden="true"></i></h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-head">
+											<div class = "text-center">
+												<h3>Live Streaming</h3>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class = "row">
+									<div class = "col-xs-12">
+										<div class = "card-para">
+											<div class = "text-center">
+												<p>Regardless of your account type, all clients may take advantage of the trading software's live quote features.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+						<div class="col-md-1">
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<div class="text-center">
+			<div class="video">
+				<iframe id="video" width="956" height="538" src="https://www.youtube.com/embed/g7FqPtiShU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<section id="contact"><!--Contact Us-->
+			<div class = "contact-us">
+				<div class = "container">
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "text-center">
+								<div class = "contact-head">
+									<h2><strong>GET IN TOUCH</strong></h2>
+								</div>
+							</div>
+						</div>
+					</div>
+				
+					<div class = "row">
+						<div class = "col-xs-12">
+							<div class = "text-center">
+								<div class = "know-help">
+									<h5>Let Us know how we can help You!</h5>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class = "row">
+						<div class = "col-md-6 col-sm-5 col-xs-12">
+						</div>
+
+						<div class = "col-md-6 col-sm-7 col-xs-12">
+							<form class="form" action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+								<input type="text" name="name" placeholder="Name" required>
+								<br>
+								<input type="email" name="email" id="mail" placeholder="Email Address" required pattern="[A-Za-z0-1.-_]{4,}@[A-Za-z]{2,}.[A-Za-z]{2,}">
+								<br>
+								<input type="text" name="number" placeholder="Phone Number" required>
+								<br>
+								<input type="text" name="message" placeholder="Type your Message">
+								<br>
+								<input type="submit" name="submit" id="submit" value="Submit">
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+	</body>
+</html>
